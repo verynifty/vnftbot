@@ -1,0 +1,19 @@
+{
+  "name": "vnftbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bignumber.js": "^9.0.1",
+    "dayjs": "^1.9.1",
+    "dotenv": "^8.2.0",
+    "ethers": "^5.0.17",
+    "telegraf": "^3.38.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
