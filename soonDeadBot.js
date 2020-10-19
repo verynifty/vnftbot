@@ -18,7 +18,7 @@ var job = new CronJob(
     if (msgs.length > 0) {
       for (msg of msgs) {
         bot.telegram.sendMessage(
-          "438453914", //"-1001164170495"
+          "-1001164170495", //"438453914", //"-1001164170495"
           msg,
           markup
         );
