@@ -35,7 +35,7 @@ const getItemTime = (id) => {
 };
 
 const soon = async (minTime) => {
-  const MIN_TIME = minTime ? minTime : 6 * 60 * 60; // 6 hrs
+  let MIN_TIME = minTime ? minTime : 6 * 60 * 60; // 6 hrs
 
   console.log("Fetching past events...");
 
